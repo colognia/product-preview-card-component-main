@@ -20,12 +20,12 @@ My 4th challenge for front end developers.
 
 ### Screenshot
 
-![](./) and ![](./)
+![](./screenshot_desktop.jpg) and ![](./screenshot_mobile.jpg)
 
 ### Links
 
-- Solution URL: [https://]
-- Live Site URL: []
+- Solution URL: [https://github.com/colognia/product-preview-card-component-main.git]
+- Live Site URL: [https://https://colognia.github.io/product-preview-card-component-main/]
 
 ## My process
 
@@ -42,10 +42,10 @@ My 4th challenge for front end developers.
 - editor: visual studio code
 
 ### What I learned
-
+More about grids and positioning items inside.
 
 ### Continued development
-
+Learn more about grids and media queries.
 
 
 ### Useful resources

@@ -118,6 +118,26 @@ button:hover {
     padding-right: 1em;
 }
 
+/* footer ----------------------------*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footerdiv {
+    text-align: left;
+    font-size: 0.6em;
+}
+
+div#footerdiv p {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*---------------------------------------*/
 @media (max-width: 375px) {
 
     .carddiv .desktopimage {
@@ -154,6 +174,10 @@ button:hover {
     .priceold {
 
         padding-left: 2em;
+    }
+
+    div#footerdiv p {
+        font-size: 12px;
     }
 
 }
