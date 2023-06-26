@@ -42,10 +42,11 @@ My 4th challenge for front end developers.
 - editor: visual studio code
 
 ### What I learned
-More about grids and positioning items inside.
+More about grids and positioning items inside. To exchange pictures thru display: none/unset; was my way to exchange pictures for different screen sizes.
 
 ### Continued development
 Learn more about grids and media queries.
+I am unsure about sizing of maincontainer, because we do not have values. Relative units do not work, because screen width changes and you want some respnsove margin.
 
 
 ### Useful resources
