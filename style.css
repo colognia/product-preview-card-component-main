@@ -138,23 +138,26 @@ div#footerdiv p {
 }
 
 /*---------------------------------------*/
-@media (max-width: 375px) {
+@media (max-width: 600px) {
 
     .carddiv .desktopimage {
         display: none;
     }
 
     .carddiv {
-        width: 93vw;
-        height: 90vh;
+        /* width: 93vw;  -> absolute sizing not sensible*/
+        max-width: 400px;
+        /* height: 90vh; -> nonsense, way to long*/
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 7fr;
+        grid-template-rows: 30% 70%;
+        /* funzt gar nicht wenn für img max-w/h gesetzt. Auch ohne max nur % funzt, fr ist nur für Restplatz*/
     }
 
     .carddiv .mobileimage {
         display: unset;
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
+        /*max ist bei width falsch! so schrumpft nicht. nur max-height alleine geht, wenn Zelle größer als Bild, damit nicht vert aus container rausläuft. Besser komplett ohne max.*/
+        height: 100%;
         object-fit: cover;
         border-radius: 13px 13px 0 0;
     }
